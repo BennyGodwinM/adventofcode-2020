@@ -15,7 +15,7 @@ def is_valid(passport_dict):
 
 def main():
     valid = 0
-    f = open("input_data.txt")
+    f = open("Day_4_input_data.txt")
     text = f.readlines();
     current_passport = {}
     text.append('\n')
