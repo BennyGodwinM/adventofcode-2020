@@ -3,7 +3,7 @@ valid = 0
 def return_instances(password,character):
     return password.count(character)
 
-with open('inputdata1.txt') as f:
+with open('Day_2_input_data.txt') as f:
     text = f.readlines()
     for line in text:
         policy,character,password = line.split(" ")
